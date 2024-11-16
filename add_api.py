@@ -91,10 +91,7 @@ failed = {}
 def change_ip():
     start_time_ = time.time()
     print("Changing IP...")
-    os.system(
-        "su -c cmd connectivity airplane-mode enable && su -c sleep 1 && "
-        "su -c cmd connectivity airplane-mode disable"
-    )
+    input("Please manually change ip and hit enter")
     while time.time() - start_time_ < 100:
         try:
             requests.head("https://google.com")
