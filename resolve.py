@@ -23,11 +23,10 @@ json_obj = json.load(open(file_name))
 
 accounts = json_obj["accounts"]
 
-#usernames = ["the_capybara_meme_bot", "UEEx_Miner_bot", "battle_games_com_bot", "memefi_coin_bot", "BlumCryptoBot", "major", "xkucoinbot",
-#             "seed_coin_bot", "duckscoop_bot", "shib_miner_game_bot", "pepe_miner_game_bot", "TronKeeperBot",
-#             "coinegg_miner_bot", "uxlink_bot", "jackdawflipbot", "TelgatherMinigamesBot"]
-
-usernames = ["TGAviator_Bot", "SERAPH_official_BOT", "PAWSOG_bot", "TelgatherMinigamesBot", "uxlink_bot", "RealSpin_bot"]
+usernames = ["the_capybara_meme_bot", "UEEx_Miner_bot", "battle_games_com_bot", "memefi_coin_bot", "BlumCryptoBot", "major", "xkucoinbot",
+             "seed_coin_bot", "duckscoop_bot", "shib_miner_game_bot", "pepe_miner_game_bot", "TronKeeperBot",
+             "coinegg_miner_bot", "uxlink_bot", "jackdawflipbot", "TelgatherMinigamesBot", 
+             "TGAviator_Bot", "SERAPH_official_BOT", "PAWSOG_bot", "uxlink_bot"]
 
 for username in usernames:
 
