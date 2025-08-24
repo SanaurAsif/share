@@ -17,7 +17,7 @@
     "passport_issue_date": "passport_issue_date_var",
     "passport_issue_place": "passport_issue_place_var",
     "passport_expiry_on": "passport_expiry_on_var",
-    "visa_type": "visa_display_to_var",
+    "visa_type": "visa_type_dict",
     "email": "email_var",
     "phone": "phone_var",
     "national_id": "national_id_var",
